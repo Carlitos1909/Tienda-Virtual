@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP SYSTEM</title>
+    <link rel="stylesheet" href="../css/styles-prod.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo"><img src="../images/logo.png" alt="">TOP SYSTEM</a>
+        
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img class="img-menu" src="../images/menu-white.png" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="services.html">Servicios</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="../images/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+            <div class="header-txt">
+                <div class="header-imglog">
+                    <img src="../images/logo-lenovo2.png" alt="">
+                </div>
+                <p>
+                    Las computadoras Lenovo son una de las mejores opciones que puede elegir un comprador. 
+                    Ya sea un profesional en el área de la informática, o cualquier otro usuario interesado. 
+                    Todos pueden contar con la seguridad de que al comprar uno de los productos de esta marca encontrarán calidad y buen funcionamiento.
+                </p>
+                <a href="https://www.lenovo.com/bo/es/laptops/c/LAPTOPS?orgRef=https%253A%252F%252Fwww.google.com%252F" class="btn-1">Informacion</a>
+            </div>
+            <div class="header-img">
+                <img src="../images/logo-lenovo3.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main class="product container" id="lista-1">
+        <h2>Productos</h2><br>
+        <p>Cada producto tiene una Garantia de 1 año en Software y Hardware, comprometiendonos al funcionamiento perfecto de nuestros equipos</p>
+        <div class="product-content">
+
+            <div class="ofert-1">
+                <img src="../images/lap-lenovo.png" alt="">
+                <div class="product-txt">
+                    <h3>Lenovo Thinkpad X1 Carbon</h3>
+                    <p>i5-7ma / 8Gb / 256Gb</p>
+                    <p><span id="dots1"></span><span id="more1">   
+                          Pantalla LED 13" 
+                        <br>lector de huellas digitales
+                        <br>Camara y micrófono
+                        <br>Estructura de fibra de carbono engomada
+                        <br>Tarjeta de video integrado <br>de 4Gb
+                        <br>Bluetooth y Wifi
+                    </p>  
+                    </span>
+                    <button onclick="myFunction1()" id="myBtn1">Ver más</button>
+                    <p class="precio">2790 bs</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar</a>
+                </div>
+            </div>
+
+            <div class="ofert-1">
+                <img src="../images/lap-lenovo2.png" alt="">
+                <div class="product-txt">
+                    <h3>Lenovo Thinkpad X1 Yoga g2</h3>
+                    <p>i5-7ma / 8Gb / 256Gb</p>
+                    <p><span id="dots2"></span><span id="more2">  
+                        Pantalla LED 14" tactil
+                        <br>Lector de huellas digitales
+                        <br>Camara y micrófono
+                        <br>Estructura metalica resistente<br> anti caídas
+                        <br>Tarjeta de video integrado <br>de 4Gb
+                        <br>Bluetooth y Wifi
+                    </p> 
+                  </span>
+                  <button onclick="myFunction2()" id="myBtn2">Ver más</button>
+                    <p class="precio">3590 bs</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar</a>
+                </div>
+            </div>
+
+            <div class="ofert-1">
+                <img src="../images/lap-lenovo3.png" alt="">
+                <div class="product-txt">
+                    <h3>Lenovo Thinkpad X260</h3>
+                    <p>i5-7ma / 8Gb / 256Gb</p>
+                    
+                    <p><span id="dots3"></span><span id="more3">  
+                        Pantalla LED 14" tactil 
+                        <br>Lapiz Tactil acoplable
+                        <br>Lectgor de huellas digitales
+                        <br>Estructura metalica resistente<br> anti caídas
+                        <br>Tarjeta de video integrado <br>de 4Gb
+                        <br>Bluetooth y Wifi
+                    </p> 
+                  </span>
+                  <button onclick="myFunction3()" id="myBtn3">Ver más</button>
+                    <p class="precio">3290 bs</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar</a>
+                </div>
+            </div>
+
+            <div class="ofert-1">
+                <img src="../images/lap-carbon-5.webp" alt="">
+                <div class="product-txt">
+                    <h3>Lenovo Thinkpad Carbon </h3>
+                    <p>i5-7ma / 8Gb / 256Gb</p>
+                    <p><span id="dots4"></span><span id="more4">  
+                        Pantalla LED 14" tactil 
+                        <br>Lapiz Tactil acoplable
+                        <br>Lectgor de huellas digitales
+                        <br>Estructura metalica resistente<br> anti caídas
+                        <br>Tarjeta de video integrado <br>de 4Gb
+                        <br>Bluetooth y Wifi
+                  </span>
+                </p>
+                  <button onclick="myFunction4()" id="myBtn4">Ver más</button>
+                    <p class="precio">2890 bs</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar</a>
+                </div>
+            </div>
+
+            <div class="ofert-1">
+                <img src="../images/lap-lenovo4.png" alt="">
+                <div class="product-txt">
+                    <h3>Lenovo ThinkPad p15s</h3>
+                    <p>i7-11va/ 24Gb / 256 Gb</p>
+                    <p><span id="dots5"></span><span id="more5">  
+                        Pantalla Pixel Sense 16" 
+                        <br>Alta calidad en sonido
+                        <br>Camara y micrófono
+                        <br>Estructura metalica resistente<br> anti caídas
+                        <br>Tarjeta de video integrado <br>de 4Gb
+                        <br>Bluetooth y Wifi
+                  </span>
+                </p>
+                  <button onclick="myFunction5()" id="myBtn5">Ver más</button>
+                    <p class="precio">5750 bs</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar</a>
+                </div>
+            </div>
+
+            <div class="ofert-1">
+                <img src="../images/lap-carbon-5.webp" alt="">
+                <div class="product-txt">
+                    <h3>Lenovo ThinkPad T495</h3>
+                    <p>Ryzen 7 Pro-3700U / 32Gb / 512Gb</p>
+                      <p><span id="dots6"></span><span id="more6">  
+                        Pantalla LED FHD 13,3" 
+                        <br>Lector de huellas digitales
+                        <br>Camara y micrófono
+                        <br>Estructura metalica resistente<br> anti caídas
+                        <br>Tarjeta de video integrado <br>de 8Gb
+                        <br>Bluetooth y Wifi
+                  </span>
+                </p>
+                  <button onclick="myFunction6()" id="myBtn6">Ver más</button>
+                    <p class="precio">3100bs</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar</a>
+                </div>
+            </div>
+            <div class="ofert-1">
+                <img src="../images/lap-lenovo6.png" alt="">
+                <div class="product-txt">
+                    <h3>Lenovo Thinkpad T480 </h3>
+                    <p>i5-8va / 8Gb / 256Gb</p>
+                    
+                      <p><span id="dots7"></span><span id="more7">  
+                        Pantalla IPS 14" 
+                        <br>Alta calidad en sonido
+                        <br>Camara y micrófono
+                        <br>Estructura fibra de carbono engomada
+                        <br>Tarjeta de video integrado <br>de 4Gb
+                        <br>Bluetooth y Wifi
+                  </span>
+                </p>
+                  <button onclick="myFunction7()" id="myBtn7">Ver más</button>
+                    <p class="precio">3490 bs</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar</a>
+                </div>
+            </div>
+
+            <div class="ofert-1">
+                <img src="../images/lap-lenovo7.png" alt="">
+                <div class="product-txt">
+                    <h3>Lenovo ThinkPad T470</h3>
+                    <p>i7-7ma/ 8Gb / 256 Gb</p>
+                    
+                      <p><span id="dots8"></span><span id="more8">  
+                        Pantalla PixelSense 14" 
+                        <br>Alta calidad en sonido audio Dobly
+                        <br>Camara y micrófono
+                        <br>Estructura metalica resistente<br> anti caídas
+                        <br>Tarjeta de video integrado <br>de 4Gb
+                        <br>Bluetooth y Wifi
+                  </span>
+                </p>
+                  <button onclick="myFunction8()" id="myBtn8">Ver más</button>
+                    <p class="precio">3490 bs</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar</a>
+                </div>
+            </div>
+
+            <div class="ofert-1">
+                <img src="../images/lap-lenovo8.png" alt="">
+                <div class="product-txt">
+                    <h3>Lenovo ThinkPad E550</h3>
+                    <p>i7-5300U / 8Gb / 256Gb</p>
+                    
+                      <p><span id="dots9"></span><span id="more9">   
+                        Pantalla LED 14" 
+                        <br>Alta calidad en sonido
+                        <br>Camara y micrófono
+                        <br>Estructura fibra de carbono engomada
+                        <br>Tarjeta de video integrado <br>de 8Gb
+                        <br>Bluetooth y Wifi
+                  </span>
+                </p>
+                  <button onclick="myFunction9()" id="myBtn9">Ver más</button>
+                    <p class="precio">3590bs</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar</a>
+                </div>
+            </div>
+ 
+        </div>
+        
+        
+    </main>
+
+    <h2 style="text-align: center; margin-bottom: 30px;"> Otras Marcas</h2>
+    <div class="next">
+        <div class="next-content">
+            <a href="prod-Hp.html">
+                <img src="../images/logo-hp.png" alt="">
+            </a>
+            <a href="prod-toshiba.html">
+                <img src="../images/logo-toshiba.png" alt="">
+            </a>
+            <img src="../images/logo-Lenovo.png" alt="">
+            
+        </div>
+    </div>
+
+    <footer>
+       
+        <div class="container-footer-all">
+         
+             <div class="container-body">
+ 
+                 <div class="colum1">
+                     <h1>Mas informacion de la compañia</h1>
+ 
+                     <p>Esta compañia se dedica a la venta de Laptops Seminuevas Americanas de Calidad "A". Asegurando la Calidad de los Equipos Importados</p>
+ 
+                 </div>
+ 
+                 <div class="colum2">
+ 
+                     <h1>Redes Sociales</h1>
+ 
+                     <div class="row">
+                         <img src="../images/facebook.png">
+                         <label>Siguenos en Facebook: TOP SYSTEM</label>
+                     </div>
+                     <div class="row">
+                         <img src="../images/twitter.png">
+                         <label>Siguenos en Twitter: TOP SYSTEM Importadora</label>
+                     </div>
+                     <div class="row">
+                         <img src="../images/instagram.png">
+                         <label>Siguenos en Instagram: TOP SYSTEM</label>
+                     </div>
+
+ 
+ 
+                 </div>
+ 
+                 <div class="colum3">
+ 
+                     <h1>Informacion de Contactos</h1>
+ 
+                     <div class="row2">
+                         <img src="../images/house.png">
+                         <label>La Paz-Bolivia, 
+                         Ciudad de La Paz, Calle Calatayud,
+                         Galeria "Open Plaza"
+                         1er. Piso, Oficina N. 14</label>
+                     </div>
+ 
+                     <div class="row2">
+                         <img src="../images/smartphone.png">
+                         <label>+591-76558830</label>
+                     </div>
+ 
+                     <div class="row2">
+                         <img src="../images/contact.png">
+                          <label>pabloyujrar@gmail.com</label>
+                     </div>
+ 
+                 </div>
+ 
+             </div>
+         
+         </div>
+         
+         <div class="container-footer">
+                <div class="footer">
+                     <div class="copyright">
+                         © 2017 Todos los Derechos Reservados | <a href="">Top System</a>
+                     </div>
+ 
+                     <div class="information">
+                         <a href="">Informacion Compañia</a> | <a href="">Politica y Privacidad</a> | <a href="">Terminos y Condiciones</a>
+                     </div>
+                 </div>
+ 
+             </div>
+         
+     </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
